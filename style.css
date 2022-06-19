@@ -1,0 +1,76 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(217, 19%, 24%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#advice {
+  font-family: "Manrope", sans-serif;
+  color: hsl(150, 100%, 66%);
+  background-color: hsl(217, 19%, 38%);
+  width: 350px;
+  text-align: center;
+  font-weight: 800;
+  min-height: 315px;
+  border-radius: 10px;
+}
+#adviceId{
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 3px;
+  padding-top: 3em;
+}
+#adviceText {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  margin: 0 7.5%;
+  line-height: 35px;
+  padding-bottom: 25px;
+  min-height: 150px;
+}
+
+
+#button {
+  background-color: hsl(150, 100%, 66%);;
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -32.5px;
+}
+#button:hover {
+  box-shadow: 0px 0px 25px hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 25px;
+  margin: auto;
+  margin-bottom: 50px;
+  background-image: url(./images/pattern-divider-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 0px;
+}
+.line {
+  flex-shrink: 0;
+  width: 125px;
+  height: 1px;
+  background-color: hsl(193, 38%, 86%);
+}
